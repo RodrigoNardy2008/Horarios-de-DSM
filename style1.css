@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: 40px auto;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.linha {
+    width: 100%;
+    height: 6px;
+    background-color: #7b1f2d;
+    margin-bottom: 45px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.card {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+}
+
+.card img {
+    width: 111px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.coordenador {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.texto {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.pdf-area {
+    text-align: center;
+}
+
+.pdf-area a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.pdf-icon {
+    width: 90px;
+    height: 110px;
+    background-color: #b51d1a;
+    color: white;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 24px;
+}
